@@ -40,7 +40,7 @@ dependencies = [
     "mujoco-warp",
     "mujoco",
     "trimesh>=4.8.3",
-    "viser>=1.0.13",
+    "viser>=1.0.15",
     "wandb",
     "moviepy",
     "tensordict",
@@ -69,6 +69,7 @@ cu12 = ["torch>=2.7.0"]
 train = "mjlab.scripts.train:main"
 play = "mjlab.scripts.play:main"
 demo = "mjlab.scripts.demo:main"
+list_envs = "mjlab.scripts.list_envs:main"
 
 [[tool.uv.index]]
 url = "https://pypi.org/simple"
